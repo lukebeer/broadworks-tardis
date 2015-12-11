@@ -1,0 +1,25 @@
+{
+    "name": "lukebeer/broadworks-tardis",
+    "description": "PHP Framework for bulk user migration and management",
+    "type": "vcs",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Luke Berezynskyj",
+            "email": "luke.berezynskyj@gamma.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BroadworksTardis\\": "src/BroadworksTardis/",
+        },
+        "classmap": ["src/"]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:lukebeer/broadworks-tardis.git"
+        }
+    ],
+    "minimum-stability": "dev"
+}

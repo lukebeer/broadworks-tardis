@@ -1,0 +1,7 @@
+site_name: Broadworks Tardis - Bulk Provisioning 
+theme: simplex
+repo_url: https://github.com/lukebeer/broadworks-tardis
+site_description: PHP Framework for Broadworks user migration and provisioning 
+site_author: Luke Beer
+site_favicon: favicon.ico
+copyright: Luke Berezynskyj Copywrite &#8734; 
