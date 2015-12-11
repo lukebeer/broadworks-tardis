@@ -15,3 +15,39 @@ PHP Application for bulk user management
 
 
 _Closed source, private project.
+
+```
+.
+└── BroadworksTardis
+    ├── Controllers
+    │   ├── Admins.php
+    │   ├── Commands.php
+    │   ├── Devices.php
+    │   ├── Domains.php
+    │   ├── Enterprise.php
+    │   ├── Groups.php
+    │   ├── Numbers.php
+    │   ├── Services.php
+    │   └── Users.php
+    ├── Interfaces
+    │   ├── API.php
+    │   └── Console.php
+    ├── Migrator
+    │   └── Migrator.php
+    ├── Processes
+    │   ├── Manager.php
+    │   └── Worker.php
+    ├── Scheduals
+    ├── Semantics
+    │   ├── ComplexTypes.php
+    │   ├── SimpleTypes.php
+    │   └── TranslationInterface.php
+    └── Storage
+        ├── Filesystem.php
+        ├── Git.php
+        ├── Mongo.php
+        ├── OCI.php
+        └── XSI.php
+
+8 directories, 22 files
+```
